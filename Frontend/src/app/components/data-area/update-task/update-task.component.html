@@ -1,0 +1,18 @@
+<div>
+    <label>Task Description: </label>
+    <br><br>
+    <input type="text" name="task" [(ngModel)]="task.description"/>
+    <br><br>
+    <label>Date & Time: </label>
+    <br><br>
+    <input type="datetime-local" name="date" [(ngModel)]="task.date" [min]="currentDate"/>
+    <br><br>
+    <label>Customer: </label>
+    <br><br>
+    <select name="customerId" [(ngModel)]="task.customerId" (change)="send()">
+        <option selected disabled value="">Select Customer</option>
+        <option *ngFor="let c of customers" value={{c._id}}>{{c.name}}</option>
+    </select>
+
+
+</div>

@@ -1,0 +1,120 @@
+01.01.2023, 18:16:33 	 TaskModel validation failed: description: Description must be minimum 10 chars
+----------------------------
+01.01.2023, 18:23:34 	 Route /api/tasks/:_id not exist
+----------------------------
+01.01.2023, 18:24:25 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+01.01.2023, 18:24:26 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+01.01.2023, 18:25:02 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+01.01.2023, 18:25:03 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+01.01.2023, 18:25:04 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+01.01.2023, 18:25:25 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+01.01.2023, 18:26:04 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+01.01.2023, 18:26:54 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+01.01.2023, 18:30:13 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+01.01.2023, 18:30:14 	 Route /api/tasks/63b1b1ed7d149102abe13f8e not exist
+----------------------------
+02.01.2023, 11:39:24 	 _id 63b1b1ed7d149102abe13f8e not exist
+----------------------------
+02.01.2023, 11:39:28 	 _id 63b1b1ed7d149102abe13f8e not exist
+----------------------------
+02.01.2023, 12:09:35 	 Route /api/tasks63b1b7809f31c753d1292167 not exist
+----------------------------
+02.01.2023, 14:50:17 	 TaskModel validation failed: date: Missing date and time
+----------------------------
+02.01.2023, 14:50:52 	 E11000 duplicate key error collection: customers-service.tasks index: description_1 dup key: { description: "Bla bla bla" }
+----------------------------
+02.01.2023, 14:51:14 	 E11000 duplicate key error collection: customers-service.tasks index: description_1 dup key: { description: "Bla bla bla" }
+----------------------------
+02.01.2023, 14:55:34 	 TaskModel validation failed: completed: Missing completed
+----------------------------
+02.01.2023, 15:00:26 	 TaskModel validation failed: completed: Missing completed
+----------------------------
+02.01.2023, 15:00:36 	 Route /api/tasks/ not exist
+----------------------------
+02.01.2023, 15:00:36 	 Route /favicon.ico not exist
+----------------------------
+02.01.2023, 15:02:25 	 Route /api/tasks/ not exist
+----------------------------
+02.01.2023, 15:02:30 	 TaskModel validation failed: completed: Missing completed
+----------------------------
+02.01.2023, 15:04:21 	 TaskModel validation failed: completed: Missing completed
+----------------------------
+02.01.2023, 15:04:48 	 TaskModel validation failed: completed: Missing completed
+----------------------------
+02.01.2023, 15:15:18 	 TaskModel validation failed: completed: Missing completed, description: Description must be minimum 10 chars
+----------------------------
+02.01.2023, 15:17:00 	 TaskModel validation failed: completed: Missing completed, description: Description must be minimum 10 chars
+----------------------------
+02.01.2023, 15:19:10 	 TaskModel validation failed: completed: Missing completed, description: Description must be minimum 10 chars
+----------------------------
+02.01.2023, 15:24:28 	 TaskModel validation failed: completed: Missing completed
+----------------------------
+02.01.2023, 15:26:55 	 TaskModel validation failed: completed: Missing completed
+----------------------------
+02.01.2023, 15:28:54 	 TaskModel validation failed: completed: Missing completed
+----------------------------
+02.01.2023, 15:41:30 	 TaskModel validation failed: completed: Missing completed
+----------------------------
+02.01.2023, 15:42:45 	 TaskModel validation failed: description: Description must be minimum 10 chars
+----------------------------
+02.01.2023, 15:49:34 	 _id 63b2e0d7d9f36f40a5ff6890 not exist
+----------------------------
+02.01.2023, 15:51:48 	 TaskModel validation failed: date: Missing date and time, description: Missing description
+----------------------------
+02.01.2023, 15:52:03 	 TaskModel validation failed: date: Missing date and time, description: Missing description
+----------------------------
+02.01.2023, 16:00:42 	 TaskModel validation failed: date: Missing date and time, description: Missing description
+----------------------------
+02.01.2023, 16:02:49 	 TaskModel validation failed: date: Missing date and time, description: Missing description
+----------------------------
+02.01.2023, 16:48:20 	 TaskModel validation failed: date: Missing date and time, description: Missing description
+----------------------------
+02.01.2023, 16:49:11 	 TaskModel validation failed: date: Missing date and time, description: Missing description
+----------------------------
+02.01.2023, 16:52:45 	 TaskModel validation failed: date: Missing date and time, description: Missing description
+----------------------------
+02.01.2023, 17:01:24 	 TaskModel validation failed: date: Missing date and time
+----------------------------
+02.01.2023, 17:20:40 	 E11000 duplicate key error collection: customers-service.tasks index: description_1 dup key: { description: "sfvsdgdrfhtghtgfhtgf" }
+----------------------------
+02.01.2023, 17:34:26 	 TaskModel validation failed: _id: Cast to ObjectId failed for value "undefined" (type string) at path "_id" because of "BSONTypeError"
+----------------------------
+02.01.2023, 17:35:23 	 _id 63b1a17445557f8ea0f5e25c not exist
+----------------------------
+03.01.2023, 13:22:23 	 TaskModel validation failed: _id: Cast to ObjectId failed for value "undefined" (type string) at path "_id" because of "BSONTypeError"
+----------------------------
+03.01.2023, 13:27:41 	 TaskModel validation failed: _id: Cast to ObjectId failed for value "undefined" (type string) at path "_id" because of "BSONTypeError"
+----------------------------
+03.01.2023, 13:34:35 	 TaskModel validation failed: _id: Cast to ObjectId failed for value "undefined" (type string) at path "_id" because of "BSONTypeError"
+----------------------------
+03.01.2023, 13:37:19 	 Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+----------------------------
+03.01.2023, 13:38:02 	 Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+----------------------------
+03.01.2023, 13:39:08 	 Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+----------------------------
+03.01.2023, 13:40:28 	 Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+----------------------------
+03.01.2023, 13:41:05 	 Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+----------------------------
+03.01.2023, 13:48:24 	 TaskModel validation failed: _id: Cast to ObjectId failed for value "undefined" (type string) at path "_id" because of "BSONTypeError"
+----------------------------
+03.01.2023, 13:50:09 	 _id 00000000a2e46ff4cc774cce not exist
+----------------------------
+03.01.2023, 13:50:52 	 Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+----------------------------
+09.01.2023, 13:28:27 	 TaskModel validation failed: description: Description must be minimum 10 chars
+----------------------------
+10.01.2023, 11:27:34 	 E11000 duplicate key error collection: customers-service.tasks index: description_1 dup key: { description: "sfvsdgdrfhtghtgfhtgf" }
+----------------------------
+12.07.2023, 16:34:04 	 TaskModel validation failed: description: Description must be minimum 10 chars
+----------------------------

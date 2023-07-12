@@ -1,0 +1,16 @@
+<div>
+
+    <label>Please enter description: </label>
+    <br><br>
+    <input type="text" name="description" [(ngModel)]="task.description" required>
+    <br><br>
+    <label>Please enter date: </label>
+    <br><br>
+    <input type="datetime-local" name="date" [(ngModel)]="task.date" [min]="currentDate" required>
+    <br><br>
+    <select name="customerId" [(ngModel)]="task.customerId" (change)="send()" required>
+        <option selected disabled value="">Select customer: </option>
+        <option *ngFor="let c of customers" value={{c._id}}>{{c.name}}</option>
+    </select>
+    
+</div>

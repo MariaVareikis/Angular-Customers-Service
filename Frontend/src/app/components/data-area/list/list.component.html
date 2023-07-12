@@ -1,0 +1,22 @@
+<div>
+
+    <table *ngIf="customers?.length">
+        <thead class="title">
+            <tr>
+                <th>Customer name</th>
+                <th>Business</th>
+                <th>Phone 📞</th>
+                <th>Email 📧</th>
+            </tr>
+        </thead>
+        <tbody class="title">
+            <tr *ngFor="let c of customers">
+                <td>{{c.name}}</td>
+                <td>{{c.business}}</td>
+                <td>{{c.phone}}</td>
+                <td>{{c.email}}</td>
+
+        </tbody>
+    </table>
+
+</div>

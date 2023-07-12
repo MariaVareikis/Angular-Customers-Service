@@ -1,0 +1,29 @@
+<div>
+
+    <table *ngIf="tasks?.length">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Customer</th>
+                <th>Date & Time</th>
+                <th>Done?</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let t of tasks">
+                <td>{{t.description}}</td>
+                <td>{{t.customer.name}}</td>
+                <td>{{t.date| date:"dd/MM/yyyy"}} </td>
+                <!-- <td><input type="checkbox" [checked]="t.completed" (change)="updateStatus(t)"></td> -->
+                <td><label class="container">
+                        <input type="checkbox" [checked]="t.completed" (change)="updateStatus(t)">
+                        <div class="checkmark"></div>
+                    </label></td>
+                <td><button (click)="deleteMe(t._id)">❌</button></td>
+                <td><button (click)="updateTask(t._id)">Update</button></td>
+        </tbody>
+    </table>
+
+</div>

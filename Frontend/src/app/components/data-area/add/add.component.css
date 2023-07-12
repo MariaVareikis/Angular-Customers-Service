@@ -1,0 +1,27 @@
+/* form {
+    width: 300px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-family: Segoe Print;
+}
+
+select, input, button {
+    width: 100%;
+    box-sizing: border-box;
+} */
+
+input {
+    color: black;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 190px;
+}
+
+input:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
